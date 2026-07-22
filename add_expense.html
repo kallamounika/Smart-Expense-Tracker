@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Expense</title>
+</head>
+<body>
+
+<h1>Add Expense 💸</h1>
+
+<form action="/add_expense" method="POST">
+    <label>Category</label><br>
+    <input type="text" name="category" required><br><br>
+
+    <label>Amount</label><br>
+    <input type="number" name="amount" required><br><br>
+
+    <label>Date</label><br>
+    <input type="date" name="date" required><br><br>
+
+    <label>Description</label><br>
+    <textarea name="description"></textarea><br><br>
+
+    <button type="submit">Save Expense</button>
+
+</form>
+
+<br>
+
+<a href="/dashboard">Back to Dashboard</a>
+
+</body>
+</html>
