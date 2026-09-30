@@ -14,8 +14,8 @@ app.secret_key = "smart_expense_tracker_2026"
 
 # MySQL Configuration
 app.config['MYSQL_HOST'] = '127.0.0.1'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Mounika@0821'   
+app.config['MYSQL_USER'] = 'expense_app'
+app.config['MYSQL_PASSWORD'] = 'ExpenseApp@2026!'   
 app.config['MYSQL_DB'] = 'expense_tracker'
 
 # Initialize MySQL
